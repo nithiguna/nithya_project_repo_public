@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T13:05:27 CST" name="Suite" finished-at="2024-02-12T13:14:05 CST" duration-ms="518772">
+    <groups>
+    </groups>
+    <test started-at="2024-02-12T13:05:27 CST" name="Testing Chrome" finished-at="2024-02-12T13:09:26 CST" duration-ms="239241">
+      <class name="maven_assignment.Amz_Smoke_04">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_04@48aca48b]" started-at="2024-02-12T13:06:19 CST" name="browserlaunch" finished-at="2024-02-12T13:06:21 CST" duration-ms="2132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="cod(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_04@48aca48b]" started-at="2024-02-12T13:06:21 CST" name="cod" data-provider="Login" finished-at="2024-02-12T13:06:55 CST" duration-ms="33081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cod -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_04@48aca48b]" started-at="2024-02-12T13:06:55 CST" name="quit" finished-at="2024-02-12T13:06:55 CST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_04 -->
+      <class name="maven_assignment.Amz_Smoke_05">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_05@13fd2ccd]" started-at="2024-02-12T13:06:55 CST" name="browserlaunch" finished-at="2024-02-12T13:06:57 CST" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="credit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_05@13fd2ccd]" started-at="2024-02-12T13:06:57 CST" name="credit_card" data-provider="Login" finished-at="2024-02-12T13:07:25 CST" duration-ms="28538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_05@13fd2ccd]" started-at="2024-02-12T13:07:26 CST" name="quit" finished-at="2024-02-12T13:07:26 CST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_05 -->
+      <class name="maven_assignment.Amz_Smoke_02">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_02@4efac082]" started-at="2024-02-12T13:05:44 CST" name="browserlaunch" finished-at="2024-02-12T13:05:46 CST" duration-ms="1999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="wish_list(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_02@4efac082]" started-at="2024-02-12T13:05:46 CST" name="wish_list" data-provider="Login" finished-at="2024-02-12T13:06:00 CST" duration-ms="14273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wish_list -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_02@4efac082]" started-at="2024-02-12T13:06:00 CST" name="quit" finished-at="2024-02-12T13:06:01 CST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_02 -->
+      <class name="maven_assignment.Amz_Smoke_03">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_03@6bd61f98]" started-at="2024-02-12T13:06:01 CST" name="browserlaunch" finished-at="2024-02-12T13:06:03 CST" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="wishlist(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_03@6bd61f98]" started-at="2024-02-12T13:06:03 CST" name="wishlist" data-provider="Login" finished-at="2024-02-12T13:06:19 CST" duration-ms="16331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_03@6bd61f98]" started-at="2024-02-12T13:06:19 CST" name="quit" finished-at="2024-02-12T13:06:19 CST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_03 -->
+      <class name="maven_assignment.Amz_Smoke_08">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_08@54e1c68b]" started-at="2024-02-12T13:08:40 CST" name="browserlaunch" finished-at="2024-02-12T13:08:42 CST" duration-ms="1928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="credit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_08@54e1c68b]" started-at="2024-02-12T13:08:42 CST" name="credit_card" data-provider="Login" finished-at="2024-02-12T13:09:07 CST" duration-ms="25338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_08@54e1c68b]" started-at="2024-02-12T13:09:08 CST" name="quit" finished-at="2024-02-12T13:09:08 CST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_08 -->
+      <class name="maven_assignment.Amz_Smoke_09">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_09@53aac487]" started-at="2024-02-12T13:09:08 CST" name="browserlaunch" finished-at="2024-02-12T13:09:10 CST" duration-ms="1796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="update_address(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_09@53aac487]" started-at="2024-02-12T13:09:10 CST" name="update_address" data-provider="Login" finished-at="2024-02-12T13:09:25 CST" duration-ms="15710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_address -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_09@53aac487]" started-at="2024-02-12T13:09:26 CST" name="quit" finished-at="2024-02-12T13:09:26 CST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_09 -->
+      <class name="maven_assignment.Amz_Smoke_06">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_06@b9b00e0]" started-at="2024-02-12T13:07:26 CST" name="browserlaunch" finished-at="2024-02-12T13:07:28 CST" duration-ms="1864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="debit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_06@b9b00e0]" started-at="2024-02-12T13:07:28 CST" name="debit_card" data-provider="Login" finished-at="2024-02-12T13:08:03 CST" duration-ms="35471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_06@b9b00e0]" started-at="2024-02-12T13:08:03 CST" name="quit" finished-at="2024-02-12T13:08:04 CST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_06 -->
+      <class name="maven_assignment.Amz_Smoke_07">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_07@506ae4d4]" started-at="2024-02-12T13:08:04 CST" name="browserlaunch" finished-at="2024-02-12T13:08:06 CST" duration-ms="1972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="upi(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_07@506ae4d4]" started-at="2024-02-12T13:08:06 CST" name="upi" data-provider="Login" finished-at="2024-02-12T13:08:40 CST" duration-ms="34169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upi -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_07@506ae4d4]" started-at="2024-02-12T13:08:40 CST" name="quit" finished-at="2024-02-12T13:08:40 CST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_07 -->
+      <class name="maven_assignment.Amz_Smoke_01">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_01@e15b7e8]" started-at="2024-02-12T13:05:27 CST" name="browserlaunch" finished-at="2024-02-12T13:05:30 CST" duration-ms="2694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="login_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_01@e15b7e8]" started-at="2024-02-12T13:05:30 CST" name="login_with_valid_credentials" data-provider="Login" finished-at="2024-02-12T13:05:43 CST" duration-ms="13537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_credentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_01@e15b7e8]" started-at="2024-02-12T13:05:44 CST" name="quit" finished-at="2024-02-12T13:05:44 CST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_01 -->
+    </test> <!-- Testing Chrome -->
+    <test started-at="2024-02-12T13:09:26 CST" name="Testing Edge" finished-at="2024-02-12T13:14:05 CST" duration-ms="279484">
+      <class name="maven_assignment.Amz_Smoke_04">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_04@46cdf8bd]" started-at="2024-02-12T13:10:42 CST" name="browserlaunch" finished-at="2024-02-12T13:10:45 CST" duration-ms="3653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="cod(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_04@46cdf8bd]" started-at="2024-02-12T13:10:45 CST" name="cod" data-provider="Login" finished-at="2024-02-12T13:11:10 CST" duration-ms="24787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cod -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_04@46cdf8bd]" started-at="2024-02-12T13:11:10 CST" name="quit" finished-at="2024-02-12T13:11:10 CST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_04 -->
+      <class name="maven_assignment.Amz_Smoke_05">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_05@f0c8a99]" started-at="2024-02-12T13:11:10 CST" name="browserlaunch" finished-at="2024-02-12T13:11:14 CST" duration-ms="3502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="credit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_05@f0c8a99]" started-at="2024-02-12T13:11:14 CST" name="credit_card" data-provider="Login" finished-at="2024-02-12T13:11:56 CST" duration-ms="42122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_05@f0c8a99]" started-at="2024-02-12T13:11:56 CST" name="quit" finished-at="2024-02-12T13:11:57 CST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_05 -->
+      <class name="maven_assignment.Amz_Smoke_02">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_02@298a5e20]" started-at="2024-02-12T13:09:45 CST" name="browserlaunch" finished-at="2024-02-12T13:09:48 CST" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="wish_list(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_02@298a5e20]" started-at="2024-02-12T13:09:48 CST" name="wish_list" data-provider="Login" finished-at="2024-02-12T13:10:12 CST" duration-ms="23923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wish_list -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_02@298a5e20]" started-at="2024-02-12T13:10:13 CST" name="quit" finished-at="2024-02-12T13:10:13 CST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_02 -->
+      <class name="maven_assignment.Amz_Smoke_03">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_03@2a7f1f10]" started-at="2024-02-12T13:10:13 CST" name="browserlaunch" finished-at="2024-02-12T13:10:16 CST" duration-ms="3514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="wishlist(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_03@2a7f1f10]" started-at="2024-02-12T13:10:16 CST" name="wishlist" data-provider="Login" finished-at="2024-02-12T13:10:41 CST" duration-ms="24482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_03@2a7f1f10]" started-at="2024-02-12T13:10:41 CST" name="quit" finished-at="2024-02-12T13:10:42 CST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_03 -->
+      <class name="maven_assignment.Amz_Smoke_08">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_08@f78a47e]" started-at="2024-02-12T13:13:08 CST" name="browserlaunch" finished-at="2024-02-12T13:13:11 CST" duration-ms="3488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="credit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_08@f78a47e]" started-at="2024-02-12T13:13:11 CST" name="credit_card" data-provider="Login" finished-at="2024-02-12T13:13:45 CST" duration-ms="33186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_08@f78a47e]" started-at="2024-02-12T13:13:45 CST" name="quit" finished-at="2024-02-12T13:13:45 CST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_08 -->
+      <class name="maven_assignment.Amz_Smoke_09">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_09@644baf4a]" started-at="2024-02-12T13:13:45 CST" name="browserlaunch" finished-at="2024-02-12T13:13:49 CST" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="update_address(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_09@644baf4a]" started-at="2024-02-12T13:13:49 CST" name="update_address" data-provider="Login" finished-at="2024-02-12T13:14:05 CST" duration-ms="16340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_address -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_09@644baf4a]" started-at="2024-02-12T13:14:05 CST" name="quit" finished-at="2024-02-12T13:14:05 CST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_09 -->
+      <class name="maven_assignment.Amz_Smoke_06">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_06@740cae06]" started-at="2024-02-12T13:11:57 CST" name="browserlaunch" finished-at="2024-02-12T13:12:00 CST" duration-ms="3742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="debit_card(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_06@740cae06]" started-at="2024-02-12T13:12:00 CST" name="debit_card" data-provider="Login" finished-at="2024-02-12T13:12:27 CST" duration-ms="26439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debit_card -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_06@740cae06]" started-at="2024-02-12T13:12:27 CST" name="quit" finished-at="2024-02-12T13:12:27 CST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_06 -->
+      <class name="maven_assignment.Amz_Smoke_07">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_07@26d9b808]" started-at="2024-02-12T13:12:28 CST" name="browserlaunch" finished-at="2024-02-12T13:12:31 CST" duration-ms="3824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="upi(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_07@26d9b808]" started-at="2024-02-12T13:12:31 CST" name="upi" data-provider="Login" finished-at="2024-02-12T13:13:07 CST" duration-ms="36014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upi -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_07@26d9b808]" started-at="2024-02-12T13:13:07 CST" name="quit" finished-at="2024-02-12T13:13:08 CST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_07 -->
+      <class name="maven_assignment.Amz_Smoke_01">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_01@2ddc9a9f]" started-at="2024-02-12T13:09:26 CST" name="browserlaunch" finished-at="2024-02-12T13:09:30 CST" duration-ms="3617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="login_with_valid_credentials(java.lang.String,java.lang.String)[pri:0, instance:maven_assignment.Amz_Smoke_01@2ddc9a9f]" started-at="2024-02-12T13:09:30 CST" name="login_with_valid_credentials" data-provider="Login" finished-at="2024-02-12T13:09:44 CST" duration-ms="14782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_credentials -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:maven_assignment.Amz_Smoke_01@2ddc9a9f]" started-at="2024-02-12T13:09:45 CST" name="quit" finished-at="2024-02-12T13:09:45 CST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- maven_assignment.Amz_Smoke_01 -->
+    </test> <!-- Testing Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
