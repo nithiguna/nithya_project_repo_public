@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T19:15:34 CST" name="Default suite" finished-at="2024-02-13T19:15:51 CST" duration-ms="16726">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T19:15:34 CST" name="Default test" finished-at="2024-02-13T19:15:51 CST" duration-ms="16726">
+      <class name="automation_project_amazon.Amazon__Testcase01">
+        <test-method is-config="true" signature="browser()[pri:0, instance:automation_project_amazon.Amazon__Testcase01@6cd28fa7]" started-at="2024-02-13T19:15:34 CST" name="browser" finished-at="2024-02-13T19:15:38 CST" duration-ms="3393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="sign_in_firsttime()[pri:0, instance:automation_project_amazon.Amazon__Testcase01@6cd28fa7]" started-at="2024-02-13T19:15:38 CST" name="sign_in_firsttime" finished-at="2024-02-13T19:15:51 CST" duration-ms="13289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_firsttime -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon__Testcase01@6cd28fa7]" started-at="2024-02-13T19:15:51 CST" name="quit" finished-at="2024-02-13T19:15:51 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon__Testcase01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
