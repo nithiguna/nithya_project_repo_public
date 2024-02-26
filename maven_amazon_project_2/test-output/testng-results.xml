@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is just started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is just finished]]>
+    </line>
+    <line>
+      <![CDATA[Test case is just started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-25T09:10:36 CST" name="Suite" finished-at="2024-02-25T09:23:24 CST" duration-ms="767653">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T09:10:36 CST" name="Testing Chrome" finished-at="2024-02-25T09:15:37 CST" duration-ms="301250">
+      <class name="automation_project_amazon.Amazon_Testcase09">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase09@485966cc]" started-at="2024-02-25T09:10:37 CST" name="browserlaunch" finished-at="2024-02-25T09:10:40 CST" duration-ms="3578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart_prd_page(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase09@485966cc]" started-at="2024-02-25T09:10:40 CST" name="verify_shopping_cart_prd_page" data-provider="Login" finished-at="2024-02-25T09:10:57 CST" duration-ms="16891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart_prd_page -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase09@485966cc]" started-at="2024-02-25T09:10:57 CST" name="quit" finished-at="2024-02-25T09:10:58 CST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase09 -->
+      <class name="automation_project_amazon.Amazon_Testcase08">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase08@273e7444]" started-at="2024-02-25T09:11:35 CST" name="browserlaunch" finished-at="2024-02-25T09:11:38 CST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="sorting_price_etc(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase08@273e7444]" started-at="2024-02-25T09:11:38 CST" name="sorting_price_etc" data-provider="Login" finished-at="2024-02-25T09:11:57 CST" duration-ms="19256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sorting_price_etc -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase08@273e7444]" started-at="2024-02-25T09:11:57 CST" name="quit" finished-at="2024-02-25T09:11:58 CST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase08 -->
+      <class name="automation_project_amazon.Amazon_Testcase07">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase07@7db12bb6]" started-at="2024-02-25T09:11:58 CST" name="browserlaunch" finished-at="2024-02-25T09:12:01 CST" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="necessary_info_price_reviews(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase07@7db12bb6]" started-at="2024-02-25T09:12:01 CST" name="necessary_info_price_reviews" data-provider="Login" finished-at="2024-02-25T09:12:20 CST" duration-ms="18755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- necessary_info_price_reviews -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase07@7db12bb6]" started-at="2024-02-25T09:12:20 CST" name="quit" finished-at="2024-02-25T09:12:20 CST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase07 -->
+      <class name="automation_project_amazon.Amazon_Testcase06">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase06@53aac487]" started-at="2024-02-25T09:10:58 CST" name="browserlaunch" finished-at="2024-02-25T09:11:01 CST" duration-ms="2646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="searching_with_filters(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase06@53aac487]" started-at="2024-02-25T09:11:01 CST" name="searching_with_filters" data-provider="Login" finished-at="2024-02-25T09:11:22 CST" duration-ms="21218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searching_with_filters -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase06@53aac487]" started-at="2024-02-25T09:11:22 CST" name="quit" finished-at="2024-02-25T09:11:22 CST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase06 -->
+      <class name="automation_project_amazon.Amazon_Testcase05">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase05@52b1beb6]" started-at="2024-02-25T09:11:22 CST" name="browserlaunch" finished-at="2024-02-25T09:11:25 CST" duration-ms="2334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_the_product(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase05@52b1beb6]" started-at="2024-02-25T09:11:25 CST" name="search_the_product" data-provider="Login" finished-at="2024-02-25T09:11:34 CST" duration-ms="9708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_the_product -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase05@52b1beb6]" started-at="2024-02-25T09:11:35 CST" name="quit" finished-at="2024-02-25T09:11:35 CST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase05 -->
+      <class name="automation_project_amazon.Amazon_Testcase04">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase04@242b836]" started-at="2024-02-25T09:13:52 CST" name="browserlaunch" finished-at="2024-02-25T09:13:54 CST" duration-ms="2178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="edit_profile_info(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase04@242b836]" started-at="2024-02-25T09:13:54 CST" name="edit_profile_info" data-provider="Login" finished-at="2024-02-25T09:14:08 CST" duration-ms="13322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_profile_info -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase04@242b836]" started-at="2024-02-25T09:14:08 CST" name="quit" finished-at="2024-02-25T09:14:08 CST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase04 -->
+      <class name="automation_project_amazon.Amazon_Testcase14">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase14@3f6f6701]" started-at="2024-02-25T09:14:08 CST" name="browserlaunch" finished-at="2024-02-25T09:14:10 CST" duration-ms="2273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="last_ordered_five_star_ratings(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase14@3f6f6701]" started-at="2024-02-25T09:14:10 CST" name="last_ordered_five_star_ratings" data-provider="Login" finished-at="2024-02-25T09:14:31 CST" duration-ms="20399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- last_ordered_five_star_ratings -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase14@3f6f6701]" started-at="2024-02-25T09:14:31 CST" name="quit" finished-at="2024-02-25T09:14:31 CST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase14 -->
+      <class name="automation_project_amazon.Amazon_Testcase02">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase02@272113c4]" started-at="2024-02-25T09:12:57 CST" name="browserlaunch" finished-at="2024-02-25T09:13:00 CST" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="check_username_password(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase02@272113c4]" started-at="2024-02-25T09:13:00 CST" name="check_username_password" data-provider="Login" finished-at="2024-02-25T09:13:06 CST" duration-ms="6331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_username_password -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase02@272113c4]" started-at="2024-02-25T09:13:06 CST" name="quit" finished-at="2024-02-25T09:13:06 CST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase02 -->
+      <class name="automation_project_amazon.Amazon_Testcase13">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase13@783a467b]" started-at="2024-02-25T09:12:21 CST" name="browserlaunch" finished-at="2024-02-25T09:12:24 CST" duration-ms="2929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_coupon_applied_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase13@783a467b]" started-at="2024-02-25T09:12:24 CST" name="verify_coupon_applied_cart" data-provider="Login" finished-at="2024-02-25T09:12:56 CST" duration-ms="32713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_coupon_applied_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase13@783a467b]" started-at="2024-02-25T09:12:56 CST" name="quit" finished-at="2024-02-25T09:12:57 CST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase13 -->
+      <class name="automation_project_amazon.Amazon_Testcase12">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase12@2d52216b]" started-at="2024-02-25T09:13:06 CST" name="browserlaunch" finished-at="2024-02-25T09:13:09 CST" duration-ms="2457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase12@2d52216b]" started-at="2024-02-25T09:13:09 CST" name="verify_shopping_cart" data-provider="Login" finished-at="2024-02-25T09:13:51 CST" duration-ms="42472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase12@2d52216b]" started-at="2024-02-25T09:13:52 CST" name="quit" finished-at="2024-02-25T09:13:52 CST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase12 -->
+      <class name="automation_project_amazon.Amazon_Testcase11">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase11@3527942a]" started-at="2024-02-25T09:14:31 CST" name="browserlaunch" finished-at="2024-02-25T09:14:34 CST" duration-ms="2490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="entire_checkout_process(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase11@3527942a]" started-at="2024-02-25T09:14:34 CST" name="entire_checkout_process" data-provider="Login" finished-at="2024-02-25T09:15:02 CST" duration-ms="28553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- entire_checkout_process -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase11@3527942a]" started-at="2024-02-25T09:15:03 CST" name="quit" finished-at="2024-02-25T09:15:03 CST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase11 -->
+      <class name="automation_project_amazon.Amazon_Testcase10">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase10@942a29c]" started-at="2024-02-25T09:15:03 CST" name="browserlaunch" finished-at="2024-02-25T09:15:05 CST" duration-ms="2129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart_update_delete_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase10@942a29c]" started-at="2024-02-25T09:15:05 CST" name="verify_shopping_cart_update_delete_cart" data-provider="Login" finished-at="2024-02-25T09:15:37 CST" duration-ms="31230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart_update_delete_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase10@942a29c]" started-at="2024-02-25T09:15:37 CST" name="quit" finished-at="2024-02-25T09:15:37 CST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase10 -->
+    </test> <!-- Testing Chrome -->
+    <test started-at="2024-02-25T09:15:37 CST" name="Testing Edge" finished-at="2024-02-25T09:23:24 CST" duration-ms="466338">
+      <class name="automation_project_amazon.Amazon_Testcase09">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase09@6d4d66d2]" started-at="2024-02-25T09:15:37 CST" name="browserlaunch" finished-at="2024-02-25T09:15:42 CST" duration-ms="4663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart_prd_page(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase09@6d4d66d2]" started-at="2024-02-25T09:15:42 CST" name="verify_shopping_cart_prd_page" data-provider="Login" finished-at="2024-02-25T09:16:13 CST" duration-ms="31066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart_prd_page -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase09@6d4d66d2]" started-at="2024-02-25T09:16:13 CST" name="quit" finished-at="2024-02-25T09:16:14 CST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase09 -->
+      <class name="automation_project_amazon.Amazon_Testcase08">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase08@6892b3b6]" started-at="2024-02-25T09:17:03 CST" name="browserlaunch" finished-at="2024-02-25T09:17:06 CST" duration-ms="2869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="sorting_price_etc(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase08@6892b3b6]" started-at="2024-02-25T09:17:06 CST" name="sorting_price_etc" data-provider="Login" finished-at="2024-02-25T09:17:26 CST" duration-ms="19706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sorting_price_etc -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase08@6892b3b6]" started-at="2024-02-25T09:17:26 CST" name="quit" finished-at="2024-02-25T09:17:27 CST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase08 -->
+      <class name="automation_project_amazon.Amazon_Testcase07">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase07@6e6f2380]" started-at="2024-02-25T09:17:27 CST" name="browserlaunch" finished-at="2024-02-25T09:17:29 CST" duration-ms="2373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="necessary_info_price_reviews(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase07@6e6f2380]" started-at="2024-02-25T09:17:29 CST" name="necessary_info_price_reviews" data-provider="Login" finished-at="2024-02-25T09:17:48 CST" duration-ms="18870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- necessary_info_price_reviews -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase07@6e6f2380]" started-at="2024-02-25T09:17:48 CST" name="quit" finished-at="2024-02-25T09:17:49 CST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase07 -->
+      <class name="automation_project_amazon.Amazon_Testcase06">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase06@2a265ea9]" started-at="2024-02-25T09:16:14 CST" name="browserlaunch" finished-at="2024-02-25T09:16:16 CST" duration-ms="2392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="searching_with_filters(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase06@2a265ea9]" started-at="2024-02-25T09:16:16 CST" name="searching_with_filters" data-provider="Login" finished-at="2024-02-25T09:16:38 CST" duration-ms="21628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searching_with_filters -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase06@2a265ea9]" started-at="2024-02-25T09:16:38 CST" name="quit" finished-at="2024-02-25T09:16:39 CST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase06 -->
+      <class name="automation_project_amazon.Amazon_Testcase05">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase05@11392934]" started-at="2024-02-25T09:16:39 CST" name="browserlaunch" finished-at="2024-02-25T09:16:42 CST" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_the_product(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase05@11392934]" started-at="2024-02-25T09:16:42 CST" name="search_the_product" data-provider="Login" finished-at="2024-02-25T09:17:02 CST" duration-ms="20397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_the_product -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase05@11392934]" started-at="2024-02-25T09:17:02 CST" name="quit" finished-at="2024-02-25T09:17:03 CST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase05 -->
+      <class name="automation_project_amazon.Amazon_Testcase04">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase04@449a4f23]" started-at="2024-02-25T09:20:45 CST" name="browserlaunch" finished-at="2024-02-25T09:20:47 CST" duration-ms="2398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="edit_profile_info(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase04@449a4f23]" started-at="2024-02-25T09:20:47 CST" name="edit_profile_info" data-provider="Login" finished-at="2024-02-25T09:21:13 CST" duration-ms="26039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edit_profile_info -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase04@449a4f23]" started-at="2024-02-25T09:21:13 CST" name="quit" finished-at="2024-02-25T09:21:14 CST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase04 -->
+      <class name="automation_project_amazon.Amazon_Testcase14">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase14@1530c739]" started-at="2024-02-25T09:21:14 CST" name="browserlaunch" finished-at="2024-02-25T09:21:16 CST" duration-ms="2218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="last_ordered_five_star_ratings(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase14@1530c739]" started-at="2024-02-25T09:21:16 CST" name="last_ordered_five_star_ratings" data-provider="Login" finished-at="2024-02-25T09:22:17 CST" duration-ms="61447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- last_ordered_five_star_ratings -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase14@1530c739]" started-at="2024-02-25T09:22:18 CST" name="quit" finished-at="2024-02-25T09:22:18 CST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase14 -->
+      <class name="automation_project_amazon.Amazon_Testcase02">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase02@2e8c1c9b]" started-at="2024-02-25T09:19:52 CST" name="browserlaunch" finished-at="2024-02-25T09:19:54 CST" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="check_username_password(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase02@2e8c1c9b]" started-at="2024-02-25T09:19:54 CST" name="check_username_password" data-provider="Login" finished-at="2024-02-25T09:20:00 CST" duration-ms="5735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_username_password -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase02@2e8c1c9b]" started-at="2024-02-25T09:20:00 CST" name="quit" finished-at="2024-02-25T09:20:00 CST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase02 -->
+      <class name="automation_project_amazon.Amazon_Testcase13">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase13@76a4ebf2]" started-at="2024-02-25T09:17:49 CST" name="browserlaunch" finished-at="2024-02-25T09:17:51 CST" duration-ms="2293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_coupon_applied_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase13@76a4ebf2]" started-at="2024-02-25T09:17:51 CST" name="verify_coupon_applied_cart" data-provider="Login" finished-at="2024-02-25T09:19:51 CST" duration-ms="120376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_coupon_applied_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase13@76a4ebf2]" started-at="2024-02-25T09:19:51 CST" name="quit" finished-at="2024-02-25T09:19:52 CST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase13 -->
+      <class name="automation_project_amazon.Amazon_Testcase12">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase12@53fe15ff]" started-at="2024-02-25T09:20:00 CST" name="browserlaunch" finished-at="2024-02-25T09:20:03 CST" duration-ms="2257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase12@53fe15ff]" started-at="2024-02-25T09:20:03 CST" name="verify_shopping_cart" data-provider="Login" finished-at="2024-02-25T09:20:44 CST" duration-ms="41356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase12@53fe15ff]" started-at="2024-02-25T09:20:44 CST" name="quit" finished-at="2024-02-25T09:20:45 CST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase12 -->
+      <class name="automation_project_amazon.Amazon_Testcase11">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase11@5b1669c0]" started-at="2024-02-25T09:22:18 CST" name="browserlaunch" finished-at="2024-02-25T09:22:20 CST" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="entire_checkout_process(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase11@5b1669c0]" started-at="2024-02-25T09:22:20 CST" name="entire_checkout_process" data-provider="Login" finished-at="2024-02-25T09:22:59 CST" duration-ms="39072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- entire_checkout_process -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase11@5b1669c0]" started-at="2024-02-25T09:23:00 CST" name="quit" finished-at="2024-02-25T09:23:00 CST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase11 -->
+      <class name="automation_project_amazon.Amazon_Testcase10">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase10@78e4deb0]" started-at="2024-02-25T09:23:00 CST" name="browserlaunch" finished-at="2024-02-25T09:23:03 CST" duration-ms="2469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_shopping_cart_update_delete_cart(java.lang.String,java.lang.String)[pri:0, instance:automation_project_amazon.Amazon_Testcase10@78e4deb0]" started-at="2024-02-25T09:23:03 CST" name="verify_shopping_cart_update_delete_cart" data-provider="Login" finished-at="2024-02-25T09:23:23 CST" duration-ms="20431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7339443860]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vijaya@@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_shopping_cart_update_delete_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:automation_project_amazon.Amazon_Testcase10@78e4deb0]" started-at="2024-02-25T09:23:23 CST" name="quit" finished-at="2024-02-25T09:23:24 CST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- automation_project_amazon.Amazon_Testcase10 -->
+    </test> <!-- Testing Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
