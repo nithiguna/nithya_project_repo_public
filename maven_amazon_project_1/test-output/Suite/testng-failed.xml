@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="maven_assignment.Amz_Smoke_09">
+        <methods>
+          <include name="update_address" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="browserlaunch"/>
+        </methods>
+      </class> <!-- maven_assignment.Amz_Smoke_09 -->
+    </classes>
+  </test> <!-- Testing Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
