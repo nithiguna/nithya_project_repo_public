@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\nithi\eclipse-workspace\goibibo_project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase14" class="method navigator-link" hash-for-method="domestic_roundtrip_flight">domestic_roundtrip_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase10" class="method navigator-link" hash-for-method="flight_info_faredetails_baggage_link_verify">flight_info_faredetails_baggage_link_verify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase9" class="method navigator-link" hash-for-method="multiple_passengers_singlebooking">multiple_passengers_singlebooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase6" class="method navigator-link" hash-for-method="roundtrip_flight">roundtrip_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase7" class="method navigator-link" hash-for-method="roundtrip_flight">roundtrip_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase5" class="method navigator-link" hash-for-method="roundtrip_flight">roundtrip_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase4" class="method navigator-link" hash-for-method="search_oneway_flight">search_oneway_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase13" class="method navigator-link" hash-for-method="search_oneway_flight">search_oneway_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase15" class="method navigator-link" hash-for-method="search_oneway_flight">search_oneway_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase8" class="method navigator-link" hash-for-method="search_oneway_flight">search_oneway_flight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="goibibo_project.Goibibo_Testcase11" class="method navigator-link" hash-for-method="verify_user_personaldetails_with_promocode">verify_user_personaldetails_with_promocode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="domestic_roundtrip_flight">
+                  </a> <!-- domestic_roundtrip_flight -->
+                  <span class="method-name">domestic_roundtrip_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roundtrip_flight">
+                  </a> <!-- roundtrip_flight -->
+                  <span class="method-name">roundtrip_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roundtrip_flight">
+                  </a> <!-- roundtrip_flight -->
+                  <span class="method-name">roundtrip_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roundtrip_flight">
+                  </a> <!-- roundtrip_flight -->
+                  <span class="method-name">roundtrip_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_oneway_flight">
+                  </a> <!-- search_oneway_flight -->
+                  <span class="method-name">search_oneway_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiple_passengers_singlebooking">
+                  </a> <!-- multiple_passengers_singlebooking -->
+                  <span class="method-name">multiple_passengers_singlebooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_oneway_flight">
+                  </a> <!-- search_oneway_flight -->
+                  <span class="method-name">search_oneway_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flight_info_faredetails_baggage_link_verify">
+                  </a> <!-- flight_info_faredetails_baggage_link_verify -->
+                  <span class="method-name">flight_info_faredetails_baggage_link_verify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_oneway_flight">
+                  </a> <!-- search_oneway_flight -->
+                  <span class="method-name">search_oneway_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase11</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_personaldetails_with_promocode">
+                  </a> <!-- verify_user_personaldetails_with_promocode -->
+                  <span class="method-name">verify_user_personaldetails_with_promocode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">goibibo_project.Goibibo_Testcase15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_oneway_flight">
+                  </a> <!-- search_oneway_flight -->
+                  <span class="method-name">search_oneway_flight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nithi\eclipse-workspace\goibibo_project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;baseClass.Listeners2&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase8&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase9&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase14&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase15&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase10&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase11&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase4&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase13&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase7&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase6&quot;/&gt;
+      &lt;class name=&quot;goibibo_project.Goibibo_Testcase5&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing Chrome (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'search_oneway_flight')
+data.setCell(0, 2, 'goibibo_project.Goibibo_Testcase8')
+data.setCell(0, 3, 35419);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'roundtrip_flight')
+data.setCell(1, 2, 'goibibo_project.Goibibo_Testcase6')
+data.setCell(1, 3, 33957);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'domestic_roundtrip_flight')
+data.setCell(2, 2, 'goibibo_project.Goibibo_Testcase14')
+data.setCell(2, 3, 32841);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'search_oneway_flight')
+data.setCell(3, 2, 'goibibo_project.Goibibo_Testcase15')
+data.setCell(3, 3, 31456);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_user_personaldetails_with_promocode')
+data.setCell(4, 2, 'goibibo_project.Goibibo_Testcase11')
+data.setCell(4, 3, 27462);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search_oneway_flight')
+data.setCell(5, 2, 'goibibo_project.Goibibo_Testcase13')
+data.setCell(5, 3, 22045);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'flight_info_faredetails_baggage_link_verify')
+data.setCell(6, 2, 'goibibo_project.Goibibo_Testcase10')
+data.setCell(6, 3, 18842);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'roundtrip_flight')
+data.setCell(7, 2, 'goibibo_project.Goibibo_Testcase5')
+data.setCell(7, 3, 17323);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'multiple_passengers_singlebooking')
+data.setCell(8, 2, 'goibibo_project.Goibibo_Testcase9')
+data.setCell(8, 3, 17281);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'search_oneway_flight')
+data.setCell(9, 2, 'goibibo_project.Goibibo_Testcase4')
+data.setCell(9, 3, 16651);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'roundtrip_flight')
+data.setCell(10, 2, 'goibibo_project.Goibibo_Testcase7')
+data.setCell(10, 3, 15956);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_user_personaldetails_with_promocode</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_oneway_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_oneway_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">roundtrip_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_oneway_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">roundtrip_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flight_info_faredetails_baggage_link_verify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">roundtrip_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">domestic_roundtrip_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_oneway_flight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">multiple_passengers_singlebooking</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case Started</span>
+                <span class="reporter-method-output">Test case is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase8</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_oneway_flight</span>
+                <span class="method-start">2690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">38590 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase9</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">39519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiple_passengers_singlebooking</span>
+                <span class="method-start">44434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">62125 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase14</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">62724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">domestic_roundtrip_flight</span>
+                <span class="method-start">67038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">100484 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase15</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">101810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_oneway_flight</span>
+                <span class="method-start">105854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">137832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">138401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">flight_info_faredetails_baggage_link_verify</span>
+                <span class="method-start">142486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">161541 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase11</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">163195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_user_personaldetails_with_promocode</span>
+                <span class="method-start">167396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">195284 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">196182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_oneway_flight</span>
+                <span class="method-start">200956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">217882 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase13</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">218808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_oneway_flight</span>
+                <span class="method-start">224529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">246891 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">247253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">roundtrip_flight</span>
+                <span class="method-start">251938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">268346 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">269310 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">roundtrip_flight</span>
+                <span class="method-start">274999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">309307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">goibibo_project.Goibibo_Testcase5</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">309760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">roundtrip_flight</span>
+                <span class="method-start">314606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">332501 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

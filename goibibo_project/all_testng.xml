@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="baseClass.Listeners2"> </listener>
+	</listeners>
+	<test thread-count="5" name="Testing Chrome">
+		<parameter name="browser" value="Chrome"> </parameter>
+
+		<classes>
+				<class name="goibibo_project.Goibibo_Testcase4" />
+			<!--
+
+			<class name="goibibo_project.Goibibo_Testcase8" />
+			<class name="goibibo_project.Goibibo_Testcase9" />
+			<class name="goibibo_project.Goibibo_Testcase14" />
+			<class name="goibibo_project.Goibibo_Testcase15" />
+			<class name="goibibo_project.Goibibo_Testcase10" />
+			<class name="goibibo_project.Goibibo_Testcase11" />
+			<class name="goibibo_project.Goibibo_Testcase4" />
+			<class name="goibibo_project.Goibibo_Testcase13" />
+			<class name="goibibo_project.Goibibo_Testcase7" />
+			<class name="goibibo_project.Goibibo_Testcase6" />
+			<class name="goibibo_project.Goibibo_Testcase5" />
+			-->
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
+<!--
+			<class name="goibibo_project.Goibibo_Testcasee12" />
+   			<class name="goibibo_project.No_Login" />
+   			<class name="goibibo_project.Goibibo_Testcase1" />
+   			<class name="goibibo_project.Goibibo_Testcase3" />
+			<class name="goibibo_project.Goibibo_Testcase2" />
+          -->
+   

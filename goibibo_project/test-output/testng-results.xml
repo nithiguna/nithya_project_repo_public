@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is just started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case Started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-03T12:48:45 CST" name="Suite" finished-at="2024-03-03T12:54:18 CST" duration-ms="332823">
+    <groups>
+    </groups>
+    <test started-at="2024-03-03T12:48:45 CST" name="Testing Chrome" finished-at="2024-03-03T12:54:18 CST" duration-ms="332823">
+      <class name="goibibo_project.Goibibo_Testcase14">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase14@b9b00e0]" started-at="2024-03-03T12:49:48 CST" name="browserlaunch" finished-at="2024-03-03T12:49:52 CST" duration-ms="4314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="domestic_roundtrip_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase14@b9b00e0]" started-at="2024-03-03T12:49:52 CST" name="domestic_roundtrip_flight" finished-at="2024-03-03T12:50:25 CST" duration-ms="32841" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- domestic_roundtrip_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase14@b9b00e0]" started-at="2024-03-03T12:50:26 CST" name="quit" finished-at="2024-03-03T12:50:27 CST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase14 -->
+      <class name="goibibo_project.Goibibo_Testcase8">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase8@2ed2d9cb]" started-at="2024-03-03T12:48:45 CST" name="browserlaunch" finished-at="2024-03-03T12:48:48 CST" duration-ms="2689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_oneway_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase8@2ed2d9cb]" started-at="2024-03-03T12:48:48 CST" name="search_oneway_flight" finished-at="2024-03-03T12:49:23 CST" duration-ms="35419" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_oneway_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase8@2ed2d9cb]" started-at="2024-03-03T12:49:24 CST" name="quit" finished-at="2024-03-03T12:49:25 CST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase8 -->
+      <class name="goibibo_project.Goibibo_Testcase15">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase15@506ae4d4]" started-at="2024-03-03T12:50:27 CST" name="browserlaunch" finished-at="2024-03-03T12:50:31 CST" duration-ms="4043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_oneway_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase15@506ae4d4]" started-at="2024-03-03T12:50:31 CST" name="search_oneway_flight" finished-at="2024-03-03T12:51:03 CST" duration-ms="31456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_oneway_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase15@506ae4d4]" started-at="2024-03-03T12:51:03 CST" name="quit" finished-at="2024-03-03T12:51:04 CST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase15 -->
+      <class name="goibibo_project.Goibibo_Testcase7">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase7@7db12bb6]" started-at="2024-03-03T12:52:52 CST" name="browserlaunch" finished-at="2024-03-03T12:52:57 CST" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="roundtrip_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase7@7db12bb6]" started-at="2024-03-03T12:52:57 CST" name="roundtrip_flight" finished-at="2024-03-03T12:53:13 CST" duration-ms="15956" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roundtrip_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase7@7db12bb6]" started-at="2024-03-03T12:53:14 CST" name="quit" finished-at="2024-03-03T12:53:15 CST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase7 -->
+      <class name="goibibo_project.Goibibo_Testcase13">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase13@273e7444]" started-at="2024-03-03T12:52:24 CST" name="browserlaunch" finished-at="2024-03-03T12:52:30 CST" duration-ms="5721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_oneway_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase13@273e7444]" started-at="2024-03-03T12:52:30 CST" name="search_oneway_flight" finished-at="2024-03-03T12:52:52 CST" duration-ms="22045" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_oneway_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase13@273e7444]" started-at="2024-03-03T12:52:52 CST" name="quit" finished-at="2024-03-03T12:52:52 CST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase13 -->
+      <class name="goibibo_project.Goibibo_Testcase9">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase9@13fd2ccd]" started-at="2024-03-03T12:49:25 CST" name="browserlaunch" finished-at="2024-03-03T12:49:30 CST" duration-ms="4915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="multiple_passengers_singlebooking()[pri:0, instance:goibibo_project.Goibibo_Testcase9@13fd2ccd]" started-at="2024-03-03T12:49:30 CST" name="multiple_passengers_singlebooking" finished-at="2024-03-03T12:49:47 CST" duration-ms="17281" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiple_passengers_singlebooking -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase9@13fd2ccd]" started-at="2024-03-03T12:49:47 CST" name="quit" finished-at="2024-03-03T12:49:48 CST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase9 -->
+      <class name="goibibo_project.Goibibo_Testcase10">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase10@7d4f9aae]" started-at="2024-03-03T12:51:04 CST" name="browserlaunch" finished-at="2024-03-03T12:51:08 CST" duration-ms="4085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="flight_info_faredetails_baggage_link_verify()[pri:0, instance:goibibo_project.Goibibo_Testcase10@7d4f9aae]" started-at="2024-03-03T12:51:08 CST" name="flight_info_faredetails_baggage_link_verify" finished-at="2024-03-03T12:51:27 CST" duration-ms="18842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flight_info_faredetails_baggage_link_verify -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase10@7d4f9aae]" started-at="2024-03-03T12:51:27 CST" name="quit" finished-at="2024-03-03T12:51:28 CST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase10 -->
+      <class name="goibibo_project.Goibibo_Testcase4">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase4@54e1c68b]" started-at="2024-03-03T12:52:01 CST" name="browserlaunch" finished-at="2024-03-03T12:52:06 CST" duration-ms="4774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search_oneway_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase4@54e1c68b]" started-at="2024-03-03T12:52:06 CST" name="search_oneway_flight" finished-at="2024-03-03T12:52:23 CST" duration-ms="16651" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search_oneway_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase4@54e1c68b]" started-at="2024-03-03T12:52:23 CST" name="quit" finished-at="2024-03-03T12:52:24 CST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase4 -->
+      <class name="goibibo_project.Goibibo_Testcase11">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase11@72e5a8e]" started-at="2024-03-03T12:51:28 CST" name="browserlaunch" finished-at="2024-03-03T12:51:33 CST" duration-ms="4201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="verify_user_personaldetails_with_promocode()[pri:0, instance:goibibo_project.Goibibo_Testcase11@72e5a8e]" started-at="2024-03-03T12:51:33 CST" name="verify_user_personaldetails_with_promocode" finished-at="2024-03-03T12:52:00 CST" duration-ms="27462" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_user_personaldetails_with_promocode -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase11@72e5a8e]" started-at="2024-03-03T12:52:01 CST" name="quit" finished-at="2024-03-03T12:52:01 CST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase11 -->
+      <class name="goibibo_project.Goibibo_Testcase6">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase6@783a467b]" started-at="2024-03-03T12:53:15 CST" name="browserlaunch" finished-at="2024-03-03T12:53:20 CST" duration-ms="5689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="roundtrip_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase6@783a467b]" started-at="2024-03-03T12:53:20 CST" name="roundtrip_flight" finished-at="2024-03-03T12:53:54 CST" duration-ms="33957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roundtrip_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase6@783a467b]" started-at="2024-03-03T12:53:55 CST" name="quit" finished-at="2024-03-03T12:53:55 CST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase6 -->
+      <class name="goibibo_project.Goibibo_Testcase5">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:goibibo_project.Goibibo_Testcase5@272113c4]" started-at="2024-03-03T12:53:55 CST" name="browserlaunch" finished-at="2024-03-03T12:54:00 CST" duration-ms="4846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="roundtrip_flight()[pri:0, instance:goibibo_project.Goibibo_Testcase5@272113c4]" started-at="2024-03-03T12:54:00 CST" name="roundtrip_flight" finished-at="2024-03-03T12:54:17 CST" duration-ms="17323" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roundtrip_flight -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:goibibo_project.Goibibo_Testcase5@272113c4]" started-at="2024-03-03T12:54:18 CST" name="quit" finished-at="2024-03-03T12:54:18 CST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- goibibo_project.Goibibo_Testcase5 -->
+    </test> <!-- Testing Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
