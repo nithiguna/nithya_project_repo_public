@@ -21,7 +21,7 @@ public class Goibibo_Testcase3 extends Goibibo_Launch_quit1 {
 		Register_Application r1 = new Register_Application(driver);
 		r1.enter_mobile_number();
 		r1.continue_mobile();
-		r1.enter_otp();
+		r1.wait_until_homepage_load(driver);
 		r1.Validate_invalid_otp(); //Assert
 
 	}

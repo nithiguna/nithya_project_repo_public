@@ -1,9 +1,14 @@
 package goibibo_project_POM;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import baseClass.Goibibo_Launch_quit1;
@@ -49,6 +54,10 @@ public class Register_Application extends Goibibo_Launch_quit1 {
 		enter_mobile_number.sendKeys("7339443860");
 		
 	}
+	public void enter_mobile_number1(String mob_num) {
+		enter_mobile_number.sendKeys(mob_num);
+		
+	}
 	public void enter_mobile_number1() {
 		enter_mobile_number.sendKeys("6379289114");
 		
@@ -57,9 +66,16 @@ public class Register_Application extends Goibibo_Launch_quit1 {
 		continue_mobile.click();
 		Thread.sleep(30);
 	}
-	public void enter_otp() throws InterruptedException
+	
+	public void sleep_time() throws InterruptedException {
+		
+		Thread.sleep(10);
+	}
+	public void wait_until_homepage_load(WebDriver driver)
 	{
-		Thread.sleep(5000);		
+		//Thread.sleep(5000);	
+		WebDriverWait w1=new WebDriverWait(driver,Duration.ofSeconds(20));
+		w1.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//h3[.='Congratulations']")));
 	}
 	
 	

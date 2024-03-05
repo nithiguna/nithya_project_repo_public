@@ -3,7 +3,10 @@ package goibibo_project_POM;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.ElementClickInterceptedException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -40,6 +43,12 @@ public class Search_Flight {
 	@FindBy(xpath="(//div[@class='sc-12foipm-16 wRKJm fswFld '])[1]")
 	WebElement from;
 	
+	@FindBy(xpath="(//div[@class='sc-12foipm-16 wRKJm fswFld '])[1]")
+	WebElement from1;
+	@FindBy(xpath="//div[@class='sc-tagGq itVWqe']")
+	WebElement other_element;
+	
+	
 	@FindBy(xpath="(//div[@class='sc-12foipm-16 wRKJm fswFld '])[5]")
 	WebElement multicity_from;
 	
@@ -67,7 +76,10 @@ public class Search_Flight {
 	@FindBy(xpath="//span[@class='sc-1f95z5i-8 gnkTau header-sprite logo gi-logo']")
 	WebElement goibibo;
 	
-	
+	public void enter_sleeptime() throws InterruptedException
+	{
+		Thread.sleep(5000);		
+	}
 	public void home_page_domestic_international()
 	{
 		homepage.click();
@@ -102,9 +114,52 @@ public class Search_Flight {
 	{
 		multi_city.click();
 	}
-	public void from() 
+	public void from()
 	{
-	from.click();
+		from.click();
+	}
+	public void other_element()
+	{
+		other_element.click();
+	}
+	
+//	public void from1(WebDriver driver) 
+//	{
+		
+	//	WebElement element = driver.findElement(By.xpath("your_xpath"));
+//		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", from1);
+//		from1.click();
+		
+		
+//		WebDriverWait w1=new WebDriverWait(driver,Duration.ofSeconds(20));
+//		w1.until(ExpectedConditions.elementToBeClickable(from1)).click();;
+	//	from.click();
+		
+//		try {
+//		   from1.click();
+//		} catch (ElementClickInterceptedException e) {
+//		    // Handle the exception, such as waiting and retrying
+//		System.out.println("Im here clickable is not working ");
+//		}
+		
+		//WebElement fromCityField = driver.findElement(By.id("fromCity"));
+//		if (from1.isEnabled() && from1.isDisplayed()) {
+//			from1.click();
+//		} else {
+//			System.out.println("Im here clickable is not working ");
+//			// Handle the situation when the element is not clickable
+//		}
+		
+		public void from1(WebDriver driver) throws InterruptedException
+		{
+			Point p1=from1.getLocation();
+			int y=p1.getY();
+			System.out.println(y);
+			JavascriptExecutor j1=(JavascriptExecutor) driver;
+			j1.executeScript("window.scrollBy(0,"+y+")");
+			Thread.sleep(2000);
+			from1.click();
+
 	}
 	public void multicity_from()
 	{
@@ -180,6 +235,10 @@ public class Search_Flight {
 	public void goibibo()
 	{
 		goibibo.click();	
+	}
+	public void refresh(WebDriver driver)
+	{
+		driver.navigate().refresh();	
 	}
 	
 //	public void checking_search_page_loaded_Succesfully()

@@ -61,7 +61,8 @@ public class Goibibo_Testcase4 extends Goibibo_Launch_quit1 {
 //		s1.title(driver);
 //		//s1.goibibo();
 //		s1.flight(driver);
-		s1.from();
+		//s1.from();
+		s1.flight(driver);
 		s1.enter_from_city();
 		s1.list_of_city();
 		s1.enter_to_city();

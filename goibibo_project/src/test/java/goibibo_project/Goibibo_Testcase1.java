@@ -28,7 +28,8 @@ Register_Application r1=new Register_Application(driver);
 	//	r1.Close_the_Mobile_window();
 		
 	r1.enter_mobile_number1();
-	r1.continue_mobile();
+	r1.wait_until_homepage_load(driver);
+	//r1.continue_mobile();
 
 }
 }

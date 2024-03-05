@@ -2,26 +2,32 @@ package goibibo_project_POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Logout {
 
-	@FindBy(xpath="//div[@class='sc-1f95z5i-48 hXpXUa']")
+	@FindBy(xpath=" //div[@data-id='user-info-tab']")
+	//@FindBy(xpath="(//div[@class='sc-1f95z5i-46 eysNXF']//div)[4]")
+	//div[@class='sc-fifgRP iKzBkA']
 	WebElement hover_profile_name;
 	
-	@FindBy(xpath="//div[@class='sc-1f95z5i-42 hnuxwW']/p[2]")
+	@FindBy(xpath="//div[@data-id='header-dropdown']/li")
+	//@FindBy(xpath="(//div[@class='sc-1f95z5i-26 lkHhCD'])/li")
 	WebElement view_your_profile;
 	
-	@FindBy(xpath="//div[@class='sc-1e4no8h-4 hAlxgR'][2]/button/span[2]")
-	WebElement logout;
-	
-	@FindBy(xpath="//button[@class='sc-sypgwv-6 kkbZLK']")
+	@FindBy(xpath="//button[.='Yes, Log out']")
 	WebElement confirm_logout;
 	
-	public void hover_profile_name()
+	//button[@class='sc-sypgwv-6 kkbZLK']
+	@FindBy(xpath="//span[.='LOGOUT']")
+	WebElement logout;
+	
+	public void hover_profile_name(WebDriver driver)
 	{
-		hover_profile_name.click();
+		Actions a1=new Actions(driver);
+		a1.moveToElement(hover_profile_name).perform();
 	}
 	public void view_your_profile()
 	{

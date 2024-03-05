@@ -7,13 +7,13 @@
   <test thread-count="5" name="Testing Chrome(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="goibibo_project.Goibibo_Testcase8">
+      <class name="goibibo_project.Goibibo_Testcase12">
         <methods>
           <include name="quit"/>
-          <include name="search_oneway_flight"/>
+          <include name="login_search_logout" invocation-numbers="0"/>
           <include name="browserlaunch"/>
         </methods>
-      </class> <!-- goibibo_project.Goibibo_Testcase8 -->
+      </class> <!-- goibibo_project.Goibibo_Testcase12 -->
     </classes>
   </test> <!-- Testing Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
